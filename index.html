@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" data-bs-theme="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شیرلرن</title>
+    <link rel="shortcut icon" href="./img/lion-logo.avif" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/custom.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 d-none d-lg-block p-0">
+                <div class="d-flex flex-column shadow h-100 p-3 position-fixed w_inherit">
+                    <a href="#" class="d-flex gap-2 align-items-center text-decoration-none link-body-emphasis">
+                        <img src="img/lion-logo.avif" width="70" alt="">
+                        <span class="fs-4 fw-bold">شیرلرن</span>
+                    </a>
+                    <hr>
+                    <ul class="nav nav-pills d-block mb-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-flex gap-2 active">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-house-door" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z">
+                                    </path>
+                                </svg>
+                                <span>خانه</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-flex gap-2 link-body-emphasis ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-speedometer2" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4M3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707M2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10m9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5m.754-4.246a.39.39 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.39.39 0 0 0-.029-.518z">
+                                    </path>
+                                    <path fill-rule="evenodd"
+                                        d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A8 8 0 0 1 0 10m8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3">
+                                    </path>
+                                </svg>
+                                <span>داشبورد</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-flex gap-2 link-body-emphasis ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-bag" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z">
+                                    </path>
+                                </svg>
+                                <span>سفارش</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-flex gap-2 link-body-emphasis ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-book" viewBox="0 0 16 16">
+                                    <path
+                                        d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783">
+                                    </path>
+                                </svg>
+                                <span>دوره ها</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-flex gap-2 link-body-emphasis ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-person" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z">
+                                    </path>
+                                </svg>
+                                <span>کاربران</span>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                    <hr>
+                    <div class="dropdown">
+                        <a href="#" data-bs-toggle="dropdown"
+                            class="dropdown-toggle d-flex align-items-center gap-2 text-decoration-none link-body-emphasis">
+                            <img src="img/—Pngtree—user profile avatar_13369988 (1).png" class="rounded-circle" width="32" height="32" alt="">
+                            <strong>علی شیری</strong>
+                        </a>
+                        <ul class="dropdown-menu shadow" data-popper-placement="top-end">
+                            <li>
+                                <a href="#" class="dropdown-item">پروژه جدید ...</a>
+                                <a href="#" class="dropdown-item">تنظیمات</a>
+                                <a href="#" class="dropdown-item">پروفایل</a>
+                                <hr>
+                                <a href="#" class="dropdown-item">خروج</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-10">
+
+                <nav class="navbar navbar-expand-lg border-bottom border-secondary border-opacity-10">
+                    <div class="container-fluid">
+                        <a href="#" class="navbar-brand">پیش خوان</a>
+                        <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-start d-lg-none" id="offcanvasNavbar">
+
+                            <div class="d-flex flex-column shadow overflow-y-auto h-100 p-3 ">
+                                <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+                                <a href="#"
+                                    class="d-flex gap-2 align-items-center text-decoration-none link-body-emphasis">
+                                    <img src="img/lion-logo.avif" width="70" alt="">
+                                    <span class="fs-4 fw-bold">شیرلرن</span>
+                                </a>
+                                <hr>
+                                <ul class="nav nav-pills d-block mb-auto">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link d-flex gap-2 active">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z">
+                                                </path>
+                                            </svg>
+                                            <span>خانه</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link d-flex gap-2 link-body-emphasis ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-speedometer2" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4M3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707M2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10m9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5m.754-4.246a.39.39 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.39.39 0 0 0-.029-.518z">
+                                                </path>
+                                                <path fill-rule="evenodd"
+                                                    d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A8 8 0 0 1 0 10m8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3">
+                                                </path>
+                                            </svg>
+                                            <span>داشبورد</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link d-flex gap-2 link-body-emphasis ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z">
+                                                </path>
+                                            </svg>
+                                            <span>سفارش</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link d-flex gap-2 link-body-emphasis ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783">
+                                                </path>
+                                            </svg>
+                                            <span>دوره ها</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link d-flex gap-2 link-body-emphasis ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z">
+                                                </path>
+                                            </svg>
+                                            <span>کاربران</span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                                <hr>
+                                <div class="dropdown">
+                                    <a href="#" data-bs-toggle="dropdown"
+                                        class="dropdown-toggle d-flex align-items-center gap-2 text-decoration-none link-body-emphasis">
+                                        <img src="img/—Pngtree—user profile avatar_13369988 (1).png" class="rounded-circle" width="32" height="32" alt="">
+                                        <strong>علی شیری</strong>
+                                    </a>
+                                    <ul class="dropdown-menu shadow" data-popper-placement="top-end">
+                                        <li>
+                                            <a href="#" class="dropdown-item">پروژه جدید ...</a>
+                                            <a href="#" class="dropdown-item">تنظیمات</a>
+                                            <a href="#" class="dropdown-item">پروفایل</a>
+                                            <a href="#" class="dropdown-item">خروج</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </nav>
+                <div class="mt-4">
+                    <h2>
+                        علی شیری عزیز ، خوش آمدید 🙌
+                    </h2>
+                    <!-- Card -->
+                    <div class="row row-gap-2 mt-4 ">
+
+                        <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+
+
+                            <div
+                                class=" bg-info text-light d-flex  justify-content-between align-items-center rounded-2 p-3 position-relative">
+                                <div>
+                                    <h5 class="fw-bold">پیشرفت کاربر</h5>
+                                    <span class="fs-3">53%</span>
+                                </div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="117" height="51" viewBox="0 0 117 51"
+                                        fill="none">
+                                        <g filter="url(#filter0_f_3_639)">
+                                            <circle cx="107" cy="20" r="5" fill="#fff"></circle>
+                                        </g>
+                                        <path
+                                            d="M1 49.5L8.5 26.5L17 37L22 19.5L31 37L44.5 3L57.5 26.5L72 19.5L83.5 31L93.5 6.5L101 19.5H108"
+                                            stroke="#fff" stroke-width="2" stroke-linecap="round"></path>
+                                        <defs>
+                                            <filter id="filter0_f_3_639" x="97" y="10" width="20" height="20"
+                                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                                    result="shape"></feBlend>
+                                                <feGaussianBlur stdDeviation="2.5"
+                                                    result="effect1_foregroundBlur_3_639">
+                                                </feGaussianBlur>
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div
+                                    class="position-absolute bottom-0 start-0 d-flex justify-content-center bg-dark opacity-25 w-100 text-light">
+                                    <div>اطلاعات بیشتر</div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+
+
+                            <div
+                                class=" bg-danger text-light d-flex  justify-content-between align-items-center rounded-2 p-3 position-relative">
+                                <div>
+                                    <h5 class="fw-bold text-nowrap">دوره ها</h5>
+                                    <span class="fs-3 text-nowrap">25</span>
+                                </div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="117" height="51" fill="currentColor"
+                                        class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="position-absolute bottom-0 start-0 d-flex justify-content-center bg-dark opacity-25 w-100 text-light">
+                                    <div>اطلاعات بیشتر</div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+
+                            <div
+                                class=" bg-primary text-light d-flex  justify-content-between align-items-center rounded-2 p-3 position-relative">
+                                <div>
+                                    <h5 class="fw-bold text-nowrap">مجموع تیکت ها</h5>
+                                    <span class="fs-3 text-nowrap">10</span>
+                                </div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="117" height="51" fill="currentColor"
+                                        class="bi bi-ticket-detailed-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5V6a.5.5 0 0 1-.5.5 1.5 1.5 0 0 0 0 3 .5.5 0 0 1 .5.5v1.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 11.5V10a.5.5 0 0 1 .5-.5 1.5 1.5 0 1 0 0-3A.5.5 0 0 1 0 6zm4 1a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7a.5.5 0 0 0-.5.5m0 5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7a.5.5 0 0 0-.5.5M4 8a1 1 0 0 0 1 1h6a1 1 0 1 0 0-2H5a1 1 0 0 0-1 1" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="position-absolute bottom-0 start-0 d-flex justify-content-center bg-dark opacity-25 w-100 text-light">
+                                    <div>اطلاعات بیشتر</div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+
+                            <div
+                                class=" bg-success text-light d-flex  justify-content-between align-items-center rounded-2 p-3 position-relative">
+                                <div>
+                                    <h5 class="fw-bold text-nowrap">موجودی حساب</h5>
+                                    <span class="fs-3 text-nowrap">1000 تومان</span>
+                                </div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="117" height="51" fill="currentColor"
+                                        class="bi bi-cash-coin" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8m5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0" />
+                                        <path
+                                            d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195z" />
+                                        <path
+                                            d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083q.088-.517.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1z" />
+                                        <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 6 6 0 0 1 3.13-1.567" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="position-absolute bottom-0 start-0 d-flex justify-content-center bg-dark opacity-25 w-100 text-light">
+                                    <div>اطلاعات بیشتر</div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Table -->
+                    <div>
+                        <table class="table caption-top mt-4">
+                            <caption class="fs-4 fw-bold">وضعیت</caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">دوره</th>
+                                    <th scope="col">مدرس</th>
+                                    <th scope="col">تصویر</th>
+                                    <th scope="col">شروع</th>
+                                    <th scope="col">وضعیت</th>
+                                    <th scope="col">درصد یادگیری
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Adobe</td>
+                                    <td>علی شیری</td>
+                                    <td><img src="./img/—Pngtree—user profile avatar_13369988 (1).png" width="32 " height="32" alt="" class="rounded-circle">
+                                    </td>
+                                    <td>1 فروردین </td>
+                                    <td>ثبت نام</td>
+                                    <td>
+
+                                        <div class="progress" role="progressbar" aria-label="Success example"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar bg-danger bg-gradient" style="width: 5%">5 %</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Bootstrap</td>
+                                    <td>علی شیری</td>
+                                    <td><img src="./img/—Pngtree—user profile avatar_13369988 (1).png" width="32 " height="32" alt="" class="rounded-circle">
+                                    </td>
+                                    <td>2 بهمن </td>
+                                    <td>برگزار شده</td>
+                                    <td>
+
+                                        <div class="progress" role="progressbar" aria-label="Success example"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar bg-success bg-gradient" style="width: 100%">100 %
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Tailwind</td>
+                                    <td>علی شیری</td>
+                                    <td><img src="./img/—Pngtree—user profile avatar_13369988 (1).png" width="32 " height="32" alt="" class="rounded-circle">
+                                    </td>
+                                    <td>28 اسفند </td>
+                                    <td>در حال برگزاری</td>
+                                    <td>
+
+                                        <div class="progress" role="progressbar" aria-label="Success example"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar bg-info bg-gradient" style="width: 38%">38 %</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="mt-4">
+                            <nav aria-label="..." class="d-flex justify-content-center ">
+                                <ul class="pagination">
+                                    <li class="page-item disabled">
+                                        <a class="page-link">قبلی</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item active" aria-current="page">
+                                        <a class="page-link" href="#">2</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">بعدی</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- Form -->
+                    <div>
+
+
+                        <div class="row shadow border">
+                            <span class="fs-4 fw-bold">اطلاعات کاربر
+                            </span>
+
+                            <div class="col-12 col-sm-6 ">
+                                <div class="mb-3 w-50 ">
+                                    <label for="basic-url" class="form-label">نام</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="مثال : علی" id="basic-url"
+                                            aria-describedby="basic-addon3 basic-addon4">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 ">
+
+                                <div class="mb-3 w-50 ">
+                                    <label for="basic-url" class="form-label">نام خانوادگی</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="مثال : شیری" id="basic-url"
+                                            aria-describedby="basic-addon3 basic-addon4">
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6">
+
+                                <div class="mb-3 w-50 ">
+                                    <label for="basic-url" class="form-label">شماره تماس</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="مثال : 09188477619"
+                                            id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-6 ">
+
+                                <div class="mb-3 w-50">
+                                    <label for="basic-url" class="form-label">ایمیل</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="مثال : ali@example.com "
+                                            id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-6 ">
+
+                                <div class="mb-3 w-50">
+                                    <label for="basic-url" class="form-label">نام کاربری</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="مثال : alishiri"
+                                            id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 w-100">
+
+                                <div class="mb-3 w-50 ">
+                                    <label for="basic-url" class="form-label">تصویر</label>
+                                    <div class="input-group">
+                                        <input type="file" class="form-control" id="basic-url"
+                                            aria-describedby="basic-addon3 basic-addon4">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" w-100 d-flex justify-content-between">
+                                <button class="btn btn-success">ایجاد</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="dropdown position-fixed bottom-0 end-0  me-3 mb-3">
+                        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
+                            <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/>
+                          </svg></button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <button class="dropdown-item active" id="lightModeBtn">روشن</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item " id="darkModeBtn">تاریک</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="text-center fw-bold">
+             طراحی شده توسط <span class="text-info ms-2 fs-5">Ali Shiri</span>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        let lightModeBtn = document.getElementById('lightModeBtn')
+        let darkModeBtn = document.getElementById('darkModeBtn')
+
+
+        darkModeBtn.addEventListener('click', function () {
+            console.log('click darkModeBtn')
+            document.documentElement.setAttribute('data-bs-theme', 'dark')
+            darkModeBtn.classList.add('active')
+            lightModeBtn.classList.remove('active')
+            localStorage.setItem('themeMode', 'dark')
+        })
+        lightModeBtn.addEventListener('click', function () {
+            console.log('click lightModeBtn')
+            document.documentElement.setAttribute('data-bs-theme', 'light')
+            lightModeBtn.classList.add('active')
+            darkModeBtn.classList.remove('active')
+            localStorage.setItem('themeMode', 'light')
+        })
+
+        let saveThemMode = localStorage.getItem('themeMode')
+        if (saveThemMode == 'dark') {
+            document.documentElement.setAttribute('data-bs-theme', 'dark')
+            darkModeBtn.classList.add('active')
+            lightModeBtn.classList.remove('active')
+
+        }
+        else {
+            document.documentElement.setAttribute('data-bs-theme', 'light')
+            lightModeBtn.classList.add('active')
+            darkModeBtn.classList.remove('active')
+
+        }
+    </script>
+
+</body>
+
+</html>
